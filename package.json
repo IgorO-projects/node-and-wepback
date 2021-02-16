@@ -1,0 +1,32 @@
+{
+  "name": "node-and-wepback",
+  "version": "1.0.0",
+  "description": "try to confing my own webpack, correct name should be Webpack XD",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorO-projects/node-and-wepback.git"
+  },
+  "author": "IO110 <travis789lee@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorO-projects/node-and-wepback/issues"
+  },
+  "homepage": "https://github.com/IgorO-projects/node-and-wepback#readme",
+  "dependencies": {
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16",
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
+    "@babel/plugin-syntax-class-properties": "^7.12.13",
+    "@babel/preset-env": "^7.12.16",
+    "imagemin": "^7.0.1"
+  }
+}
